@@ -1,36 +1,53 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
-	id("org.springframework.boot") version "2.5.6"
-	id("io.spring.dependency-management") version "1.0.11.RELEASE"
-	kotlin("jvm") version "1.5.31"
-	kotlin("plugin.spring") version "1.5.31"
-	kotlin("plugin.jpa") version "1.5.31"
+	id("org.springframework.boot") version "3.2.5"
+	id("io.spring.dependency-management") version "1.1.4"
+	kotlin("jvm") version "1.9.20"
+	kotlin("plugin.spring") version "1.9.20"
+	kotlin("plugin.jpa") version "1.9.20"
+	id("com.google.cloud.tools.appengine") version "2.5.0"
 }
 
-group = "com.example"
+group = "com.test"
 version = "0.0.1-SNAPSHOT"
-java.sourceCompatibility = JavaVersion.VERSION_1_8
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_17
+}
 
 repositories {
 	mavenCentral()
 }
 
 dependencies {
-	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-	implementation("org.springframework.boot:spring-boot-starter-mustache")
+	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.springframework.boot:spring-boot-starter-web")
-	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
-	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-	developmentOnly("org.springframework.boot:spring-boot-devtools")
-	runtimeOnly("com.h2database:h2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 
-	runtimeOnly("org.postgresql:postgresql")
-	implementation("javax.xml.bind:jaxb-api:2.3.0")
+	implementation("io.jsonwebtoken:jjwt:0.12.5")
+}
 
-	implementation("org.springframework.boot:spring-boot-starter-security")
-	implementation("org.springframework.security:spring-security-test")
-	implementation("io.jsonwebtoken:jjwt:0.2")
+appengine {
+	deploy {
+		projectId = "nguyenducthinh-springboot"
+		version = "1"
+		stopPreviousVersion = true
+		promote = true
+	}
+	stage {
+		setArtifact(tasks.bootJar.get().archiveFile.get())
+	}
+}
+
+tasks.withType<KotlinCompile> {
+	kotlinOptions {
+		freeCompilerArgs += "-Xjsr305=strict"
+		jvmTarget = "17"
+	}
 }
 
 tasks.withType<Test> {
