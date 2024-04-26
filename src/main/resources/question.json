@@ -1,0 +1,362 @@
+[
+  {
+    "id": "1",
+    "question": "1. Câu hỏi: Thành phố nào là thủ đô của Pháp?",
+    "a": "Berlin",
+    "b": "Washington D.C.",
+    "c": "Paris",
+    "d": "London",
+    "correct": "c"
+  },
+  {
+    "id": "2",
+    "question": "Núi Everest nằm ở dãy núi nào?",
+    "a": "Alps",
+    "b": "Andes",
+    "c": "Himalaya",
+    "d": "Rocky",
+    "correct": "c"
+  },
+  {
+    "id": "3",
+    "question": "Ai là người sáng lập ra học thuyết tiến hóa bằng chọn lọc tự nhiên?",
+    "a": "Isaac Newton",
+    "b": "Nikola Tesla",
+    "c": "Charles Darwin",
+    "d": "Albert Einstein",
+    "correct": "c"
+  },
+  {
+    "id": "4",
+    "question": "Năm 1945, Liên Hợp Quốc được thành lập sau hội nghị nào?",
+    "a": "Hội nghị Potsdam",
+    "b": "Hội nghị Yalta",
+    "c": "Hội nghị Tehran",
+    "d": "Hội nghị San Francisco",
+    "correct": "d"
+  },
+  {
+    "id": "5",
+    "question": "Khí hậu nào được đặc trưng bằng mùa hè ẩm ướt và mùa đông khô ráo?",
+    "a": "Cận nhiệt đới",
+    "b": "Ôn đới",
+    "c": "Hàn đới",
+    "d": "Nhiệt đới",
+    "correct": "a"
+  },
+  {
+    "id": "6",
+    "question": "Quá trình nước biển bốc hơi và tạo thành mây gọi là gì?",
+    "a": "Kết tủa",
+    "b": "Hóa rắn",
+    "c": "Bay hơi",
+    "d": "Ngưng tụ",
+    "correct": "c"
+  },
+  {
+    "id": "7",
+    "question": "Chiến tranh thế giới thứ hai kéo dài từ năm nào đến năm nào?",
+    "a": "1939-1945",
+    "b": "1914-1918",
+    "c": "1939-1946",
+    "d": "1914-1919",
+    "correct": "a"
+  },
+  {
+    "id": "8",
+    "question": "Quốc gia nào có số lượng quần đảo lớn nhất thế giới?",
+    "a": "Philippines",
+    "b": "Indonesia",
+    "c": "Nhật Bản",
+    "d": "Mỹ",
+    "correct": "b"
+  },
+  {
+    "id": "9",
+    "question": "Ngôn ngữ nào là ngôn ngữ phổ biến nhất thế giới về số lượng người sử dụng?",
+    "a": "Tiếng Anh",
+    "b": "Tiếng Trung Quốc",
+    "c": "Tiếng Hindi ",
+    "d": "Tiếng Tây Ban Nha",
+    "correct": "b"
+  },
+  {
+    "id": "10",
+    "question": "Đại dương nào là đại dương lớn nhất thế giới?",
+    "a": "Đại dương Ấn Độ",
+    "b": "Đại dương Thái Bình Dương",
+    "c": "Đại dương Đại Tây Dương",
+    "d": "Đại dương Bắc Băng Dương",
+    "correct": "b"
+  },
+  {
+    "id": "11",
+    "question": "Thảm họa hạt nhân lớn nhất lịch sử xảy ra ở đâu trong năm 1986?",
+    "a": "Hiroshima",
+    "b": "Fukushima",
+    "c": "Chernobyl",
+    "d": "Three Mile Island",
+    "correct": "c"
+  },
+  {
+    "id": "12",
+    "question": "Renaissance, còn gọi là Thời kỳ Phục Hưng, bắt đầu từ nước nào?",
+    "a": "Pháp",
+    "b": "Anh",
+    "c": "Đức",
+    "d": "Ý",
+    "correct": "d"
+  },
+  {
+    "id": "13",
+    "question": "Ai là người đã phát hiện ra châu Mỹ?",
+    "a": "Marco Polo",
+    "b": "Christopher Columbus",
+    "c": "Vasco da Gama",
+    "d": "Ferdinand Magellan",
+    "correct": "b"
+  },
+  {
+    "id": "14",
+    "question": "Hiện tượng 'El Niño' thường ảnh hưởng đến thời tiết như thế nào?",
+    "a": "Giảm mức độ mưa ở Úc",
+    "b": "Mang lại ấm áp bất thường ở Đại Tây Dương",
+    "c": "Làm tăng mực nước biển tại Bắc Cực",
+    "d": "Làm cho nhiệt độ bề mặt biển tăng cao tại Thái Bình Dương",
+    "correct": "d"
+  },
+  {
+    "id": "15",
+    "question": "Lục địa nào lớn nhất trên thế giới?",
+    "a": "Á-Âu",
+    "b": "Nam Mỹ",
+    "c": "Bắc Mỹ",
+    "d": "Phi",
+    "correct": "a"
+  },
+  {
+    "id": "16",
+    "question": "Tại hạt nhân của nguyên tử, loại hạt nào mang điện tích dương?",
+    "a": "Neutron",
+    "b": "Electron",
+    "c": "Proton",
+    "d": "Positron",
+    "correct": "c"
+  },
+  {
+    "id": "17",
+    "question": "Làng cổ Đường Lâm thuộc tỉnh nào của Việt Nam?",
+    "a": "Quảng Nam",
+    "b": "Hà Nội",
+    "c": "Lào Cai",
+    "d": "Hải Phòng",
+    "correct": "b"
+  },
+  {
+    "id": "18",
+    "question": "Liên minh châu Âu (EU) có bao nhiêu quốc gia thành viên tính đến năm 2021?",
+    "a": "27",
+    "b": "28",
+    "c": "26",
+    "d": "29",
+    "correct": "a"
+  },
+  {
+    "id": "19",
+    "question": "Trong các loài sau, loài nào có khả năng sống trong môi trường nước mặn?",
+    "a": "chép",
+    "b": "mập",
+    "c": "rô",
+    "d": "trắm cỏ",
+    "correct": "b"
+  },
+  {
+    "id": "20",
+    "question": "Phong trào độc lập nào diễn ra trong khoảng năm 1955-1975?",
+    "a": "Phong trào độc lập của Ấn Độ",
+    "b": "Phong trào độc lập của Mỹ",
+    "c": "Phong trào độc lập của Việt Nam",
+    "d": "Phong trào độc lập của Algeria",
+    "correct": "c"
+  },
+  {
+    "id": "21",
+    "question": "Nelson Mandela đã trở thành Tổng thống của quốc gia nào vào năm 1994?",
+    "a": "Nam Phi",
+    "b": "Nigeria",
+    "c": "Kenya",
+    "d": "Ghana",
+    "correct": "a"
+  },
+  {
+    "id": "22",
+    "question": "Kênh đào nào nối liền Đại Tây Dương và Thái Bình Dương?",
+    "a": "Kênh đào Suez",
+    "b": "Kênh đào Panama",
+    "c": "Kênh đào Kiel",
+    "d": "Kênh đào Corint",
+    "correct": "b"
+  },
+  {
+    "id": "23",
+    "question": "Các vị thần Ai Cập cổ đại thường được biểu diễn như thế nào?",
+    "a": "Dáng hình người với đầu động vật",
+    "b": "Dáng hình người với cánh",
+    "c": "Dáng hình động vật toàn thân",
+    "d": "Dáng hình thiên thần",
+    "correct": "a"
+  },
+  {
+    "id": "24",
+    "question": "Hạt giống của cây nào từng được dùng làm tiền tệ trong lịch sử?",
+    "a": "Đậu Hà Lan",
+    "b": "phê",
+    "c": "Cacao",
+    "d": "Hạt tiêu",
+    "correct": "c"
+  },
+  {
+    "id": "25",
+    "question": "Địa Trung Hải là tên gọi cổ của vùng đất nào hiện nay?",
+    "a": "Trung Đông",
+    "b": "Tây Ban Nha",
+    "c": "\tÝ",
+    "d": "Greece",
+    "correct": "a"
+  },
+  {
+    "id": "26",
+    "question": "Hệ thống chính trị phong kiến ở châu Âu thịnh hành vào thời kỳ nào?",
+    "a": "đại",
+    "b": "Thời kỳ Trung cổ",
+    "c": "Thời kỳ Hiện đại sớm",
+    "d": "Thời kỳ Đường sắt",
+    "correct": "b"
+  },
+  {
+    "id": "27",
+    "question": "Ai là người đầu tiên đặt chân lên Mặt trăng?",
+    "a": "Buzz Aldrin",
+    "b": "Yuri Gagarin",
+    "c": "Neil Armstrong",
+    "d": "John Glenn",
+    "correct": "c"
+  },
+  {
+    "id": "28",
+    "question": "Loài động vật nào là động vật biểu tượng của Úc?",
+    "a": "Kangaroo",
+    "b": "Gấu Koala",
+    "c": "Gấu túi",
+    "d": "Cừu Merino",
+    "correct": "a"
+  },
+  {
+    "id": "29",
+    "question": "Thành phố cổ Machu Picchu thuộc văn minh nào?",
+    "a": "Maya",
+    "b": "Aztec",
+    "c": "Inca",
+    "d": "Olmec",
+    "correct": "c"
+  },
+  {
+    "id": "30",
+    "question": "Đỉnh núi cao nhất ở Bắc Mỹ là?",
+    "a": "Đỉnh McKinley",
+    "b": "Núi Whistler",
+    "c": "Đỉnh Denali",
+    "d": "Núi Saint Elias",
+    "correct": "c"
+  },
+  {
+    "id": "31",
+    "question": "Tỉ lệ nước ngọt có thể sử dụng trên Trái Đất chiếm khoảng bao nhiêu phần trăm tổng lượng nước?",
+    "a": "0.3%",
+    "b": "2.5%",
+    "c": "10%",
+    "d": "25%",
+    "correct": "a"
+  },
+  {
+    "id": "32",
+    "question": "Bức tranh Mona Lisa của Leonardo da Vinci được trưng bày ở đâu?",
+    "a": "Bảo tàng The Metropolitan, New York",
+    "b": "Bảo tàng Louvre, Paris",
+    "c": "Bảo tàng Uffizi, Florence",
+    "d": "Bảo tàng Prado, Madrid",
+    "correct": "b"
+  },
+  {
+    "id": "33",
+    "question": "Sông Nile chảy qua bao nhiêu quốc gia?",
+    "a": "Sáu",
+    "b": "Tám",
+    "c": "Mười một",
+    "d": "Bốn",
+    "correct": "c"
+  },
+  {
+    "id": "34",
+    "question": "Câu nói \"Tôi là người Berlin\" đã được Tổng thống nào của Hoa Kỳ tuyên bố?",
+    "a": "John F. Kennedy",
+    "b": "Ronald Reagan",
+    "c": "Richard Nixon",
+    "d": "Eisenhower",
+    "correct": "a"
+  },
+  {
+    "id": "35",
+    "question": "Đâu là quốc gia nhỏ nhất thế giới về diện tích và dân số?",
+    "a": "Monaco",
+    "b": "Nauru",
+    "c": "Vatican",
+    "d": "San Marino",
+    "correct": "c"
+  },
+  {
+    "id": "36",
+    "question": "Ai là người đã sáng lập ra điện thoại di động?",
+    "a": "Guglielmo Marconi",
+    "b": "Alexander Graham Bell",
+    "c": "Martin Cooper",
+    "d": "Nikola Tesla",
+    "correct": "c"
+  },
+  {
+    "id": "37",
+    "question": "Các múi giờ trên thế giới được chia dựa trên đường gì?",
+    "a": "Đường xích đạo",
+    "b": "Đường đổi ngày quốc tế",
+    "c": "Đường kinh tuyến Greenwich",
+    "d": "Đường chí tuyến Bắc",
+    "correct": "c"
+  },
+  {
+    "id": "38",
+    "question": "Phong trào đấu tranh cho quyền bầu cử của phụ nữ được gọi là gì?",
+    "a": "Phong trào Emancipation",
+    "b": "Phong trào Suffragette",
+    "c": "Phong trào Feminism",
+    "d": "Phong trào Seneca Falls",
+    "correct": "b"
+  },
+  {
+    "id": "39",
+    "question": "Ngôn ngữ nào là ngôn ngữ chính thức ở cả Canada và Pháp?",
+    "a": "Tiếng Anh",
+    "b": "Tiếng Tây Ban Nha",
+    "c": "Đào Nha",
+    "d": "Tiếng Pháp",
+    "correct": "d"
+  },
+  {
+    "id": "40",
+    "question": "Al-Qaeda là tổ chức khủng bố được thành lập bởi ai?",
+    "a": "Saddam Hussein",
+    "b": "Muammar Gaddafi",
+    "c": "Osama bin Laden",
+    "d": "Ayman al-Zawahiri",
+    "correct": "c"
+  }
+]
